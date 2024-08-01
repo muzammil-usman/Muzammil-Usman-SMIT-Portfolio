@@ -11,17 +11,23 @@
   --h1FontSize: 4rem;
   --h2FontSize: 3rem;
   --SubHeading: 2rem;
+  --Color1: #8dc63f;
+  --Color2: #0d6db7;
+  --Color3: White;
+}
+
+body {
+  background-color: var(--Color1);
 }
 .main {
-  width: 100vw;
-  height: 100vh;
-  background-color: rebeccapurple;
+  /* width: 100vw; */
+  /* height: 100vh; */
   /* overflow-x: hidden; */
 }
 
 .intro {
   width: 100%;
-  background-color: purple;
+  /* background-color: purple; */
   margin-top: 5%;
 }
 
@@ -41,7 +47,7 @@
 
 .html-heading {
   width: 100%;
-  background-color: powderblue;
+  /* background-color: powderblue; */
   margin-top: 5%;
 }
 
@@ -50,4 +56,26 @@
   align-items: center;
   text-align: center;
   font-size: var(--h1FontSize);
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.container {
+  padding: 10px 50px;
+  position: relative;
+  background-color: #0d6db7;
+  width: 50%;
+}
+
+.text-box {
+  padding: 20px 30px;
+  position: relative;
+  background-color: rgb(30, 85, 134);
+  border: 2px solid var(--Color3);
+  border-radius: 5px;
+  font-size: 15px;
 }
