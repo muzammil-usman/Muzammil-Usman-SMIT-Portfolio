@@ -4,6 +4,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 /* variables */
@@ -14,21 +15,30 @@
   --Color1: #8dc63f;
   --Color2: #0d6db7;
   --Color3: White;
+  --Color4: black;
 }
 
 body {
-  background-color: var(--Color1);
+  background: linear-gradient(to bottom, #0d6db7, #8dc63f, white);
 }
-/* .main { */
-/* width: 100vw; */
-/* height: 100vh; */
-/* overflow-x: hidden; */
-/* } */
+.main {
+  width: 100vw;
+  /* height: 100vh; */
+  /* overflow-x: hidden; */
+}
 
 .intro {
   width: 100%;
   /* background-color: purple; */
   margin-top: 5%;
+}
+
+.intro h1:hover {
+  color: var(--Color4);
+}
+
+.intro h2:hover {
+  color: var(--Color3);
 }
 
 .intro > h1 {
@@ -37,12 +47,26 @@ body {
   text-align: center;
   font-size: var(--h1FontSize);
   padding: 4% 0;
+  color: var(--Color3);
+  transition: 2s;
 }
 .intro > h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: var(--h2FontSize);
+  color: var(--Color4);
+  transition: 2s;
+}
+
+.orange:hover {
+  color: #ff5722;
+}
+.blue:hover {
+  color: #004ce8;
+}
+.yellow:hover {
+  color: #ffda3d;
 }
 
 .html-heading {
@@ -67,15 +91,173 @@ body {
 .container {
   padding: 10px 50px;
   position: relative;
-  background-color: #0d6db7;
+  /* background-color: #0d6db7; */
   width: 50%;
+  animation: moveDown 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes moveDown {
+  0% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.container:nth-child(1) {
+  animation-delay: 0s;
 }
 
 .text-box {
   padding: 20px 30px;
   position: relative;
-  background-color: rgb(30, 85, 134);
+  background-color: var(--Color2);
   border: 2px solid var(--Color3);
   border-radius: 5px;
   font-size: 15px;
+}
+
+.text-box:hover {
+  background-color: var(--Color4);
+  border-color: transparent;
+  box-shadow: 0 0 15px #ff5722;
+  transition: 2s;
+}
+
+.text-box2:hover {
+  background-color: var(--Color4);
+  border-color: transparent;
+  box-shadow: 0 0 15px #004ce8;
+  transition: 2s;
+}
+
+.text-box3:hover {
+  background-color: var(--Color4);
+  border-color: transparent;
+  box-shadow: 0 0 15px #ffda3d;
+  transition: 2s;
+}
+
+.orange:hover {
+  color: #ff5722;
+}
+
+.left-container {
+  left: 0;
+}
+
+.right-container {
+  left: 50%;
+}
+
+.container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: -20px;
+  z-index: 1;
+  top: 32px;
+}
+
+.right-container img {
+  left: -20px;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 49.8%;
+  background: var(--Color4);
+  animation: move 5s linear forwards;
+  border: 1px solid var(--Color3);
+}
+
+@keyframes move {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+.text-box h2 {
+  font-weight: 700;
+  color: var(--Color3);
+}
+
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--Color3);
+}
+
+.text-box p {
+  color: var(--Color3);
+}
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-left: 15px solid var(--Color4);
+  right: -14px;
+}
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-right: 15px solid var(--Color4);
+  left: -14px;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline {
+    margin: 50px auto;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+  .container {
+    width: 80%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .text-box {
+    font-size: 13px;
+  }
+
+  .text-box small {
+    margin-bottom: 10px;
+  }
+
+  .right-container {
+    left: 0;
+  }
+  .right-container img,
+  .left-container img {
+    left: 20px;
+  }
+
+  .right-container-arrow,
+  .left-container-arrow {
+    border-right: 15px solid var(--Color4);
+    border-left: 0px;
+    left: -14px;
+  }
 }
