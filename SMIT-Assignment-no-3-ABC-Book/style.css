@@ -1,0 +1,53 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading {
+  text-align: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 75px;
+  color: yellowgreen;
+}
+.anchors {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.anchors > a {
+  color: violet;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.alphabets {
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-left: 30%;
+  align-items: center;
+  text-align: center;
+  box-shadow: 8px 8px 4px yellow;
+}
+
+.anchors > a:hover {
+  color: turquoise;
+}
+
+.main-heading:hover {
+  color: tomato;
+  transform: scale(2, 2);
+}
+
+button.btn {
+  width: 250px;
+  height: 125px;
+  color: teal;
+  border: 1px double black;
+}

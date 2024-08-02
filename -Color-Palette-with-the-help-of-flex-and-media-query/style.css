@@ -1,0 +1,837 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #3c40c6;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar a {
+  font-size: 1.5rem;
+  color: white;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+/* Creation of Cards */
+
+.cards-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 50px 50px;
+  padding: 50px 25px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards-box .box {
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  width: 350px;
+  height: 250px;
+  background: white;
+}
+
+.main-container .cards-box .box .img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 330px;
+  height: 200px;
+  background: black;
+}
+
+.main-container .cards-box .box .img img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-container .cards-box .box .card-name {
+  position: absolute;
+  top: 225px;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+/* Sub Pages */
+
+/* Aussie Palette */
+
+.Aussie-Palette {
+  width: 100vw;
+  height: 100vh;
+  /* overflow: scroll; */
+  background-color: white;
+}
+
+.back-button {
+  width: 100px;
+  height: 50px;
+  background-color: tan;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.back-button:hover {
+  background-color: springgreen;
+}
+
+.back-button > a {
+  color: steelblue;
+  font-size: 1.5rem;
+}
+
+.back-button > a:hover {
+  color: snow;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.center-btn {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border: transparent;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  right: 20%;
+  bottom: 25%;
+  color: transparent;
+}
+
+.center-btn:hover {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+.beekeeper {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #f6e58d;
+  text-transform: uppercase;
+}
+
+.beekeeper > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.spiced-nectarine {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #ffbe76;
+  text-transform: uppercase;
+}
+
+.spiced-nectarine > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.pink-glamour {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #ff7979;
+  text-transform: uppercase;
+}
+.pink-glamour > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.june-bird {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #badc58;
+  text-transform: uppercase;
+}
+.june-bird > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.coastal-breeze {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #dff9fb;
+  text-transform: uppercase;
+}
+.coastal-breeze > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.turbo {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #f9ca24;
+  text-transform: uppercase;
+}
+
+.turbo > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.quince-jelly {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #f0932b;
+  text-transform: uppercase;
+}
+
+.quince-jelly > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.carmine-pink {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #eb4d4b;
+  text-transform: uppercase;
+}
+
+.carmine-pink > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.pure-apple {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #6ab04c;
+  text-transform: uppercase;
+}
+
+.pure-apple > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.hint-ice {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #c7ecee;
+  text-transform: uppercase;
+}
+
+.hint-ice > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.middle-blue {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #7ed6df;
+  text-transform: uppercase;
+}
+
+.middle-blue > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.helitrope {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #e056fd;
+  text-transform: uppercase;
+}
+
+.helitrope > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.exodus {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #686de0;
+  text-transform: uppercase;
+}
+
+.exodus > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.deep {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #30336b;
+  text-transform: uppercase;
+}
+
+.deep > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.eagle {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #95afc0;
+  text-transform: uppercase;
+}
+
+.eagle > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.greenland {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #22a6b3;
+  text-transform: uppercase;
+}
+
+.greenland > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.steel {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #be2edd;
+  text-transform: uppercase;
+}
+
+.steel > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.blurple {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #4834d4;
+  text-transform: uppercase;
+}
+
+.blurple > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.deep-cove {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #130f40;
+  text-transform: uppercase;
+}
+
+.deep-cove > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.wizard {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #535c68;
+  text-transform: uppercase;
+}
+
+.wizard > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+/* British Palette */
+
+.pylon {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #00a8ff;
+  text-transform: uppercase;
+}
+
+.pylon > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.peri {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #9c88ff;
+  text-transform: uppercase;
+}
+
+.peri > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.rise {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #fbc531;
+  text-transform: uppercase;
+}
+
+.rise > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.download {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #4cd137;
+  text-transform: uppercase;
+}
+
+.download > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.sea {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #487eb0;
+  text-transform: uppercase;
+}
+
+.sea > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.blue {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #0097e6;
+  text-transform: uppercase;
+}
+
+.blue > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.matt {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #8c7ae6;
+  text-transform: uppercase;
+}
+
+.matt > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.gold {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #e1b12c;
+  text-transform: uppercase;
+}
+
+.gold > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.green {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #44bd32;
+  text-transform: uppercase;
+}
+
+.green > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.naval {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #40739e;
+  text-transform: uppercase;
+}
+
+.naval > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.flower {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #e84118;
+  text-transform: uppercase;
+}
+
+.flower > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.blank {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: white;
+  text-transform: uppercase;
+}
+
+.blank > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.soda {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #7f8fa6;
+  text-transform: uppercase;
+}
+
+.soda > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.mazarine {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #273c75;
+  text-transform: uppercase;
+}
+
+.mazarine > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.nights {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #353b48;
+  text-transform: uppercase;
+}
+
+.nights > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.davidson {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #c23616;
+  text-transform: uppercase;
+}
+
+.davidson > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.hint {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #dcdde1;
+  text-transform: uppercase;
+}
+
+.hint > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.gang {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #718093;
+  text-transform: uppercase;
+}
+
+.gang > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.void {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #192a56;
+  text-transform: uppercase;
+}
+
+.void > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.electro {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #2f3640;
+  text-transform: uppercase;
+}
+
+.electro > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.puff {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #ff9ff3;
+  text-transform: uppercase;
+}
+
+.puff > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.dora {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #feca57;
+  text-transform: uppercase;
+}
+
+.dora > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.pastel {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #ff6b6b;
+  text-transform: uppercase;
+}
+
+.pastel > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.megaman {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #48dbfb;
+  text-transform: uppercase;
+}
+
+.megaman > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  p {
+    display: none;
+  }
+  .center-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-container .cards-box .box .img {
+    width: 200px;
+  }
+  .main-container .cards-box .box .img img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-container .cards-box .box .img {
+    width: 175px;
+  }
+  .main-container .cards-box .box .img img {
+    width: 100%;
+    height: auto;
+  }
+}

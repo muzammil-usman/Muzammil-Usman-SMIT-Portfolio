@@ -1,0 +1,41 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+li a.frontpage {
+  text-decoration: none;
+  color: black;
+}
+
+a.overall {
+  text-decoration: none;
+  color: black;
+}
+
+address.address {
+  display: inline;
+}
+h4.address {
+  display: inline;
+}
+
+img {
+  display: inline;
+  margin: 30px;
+}
+
+video {
+  display: inline;
+  margin: 30px;
+}
+
+iframe {
+  display: inline;
+  margin: 30px;
+}
+
+audio {
+  display: inline;
+  margin-left: 250px;
+}
