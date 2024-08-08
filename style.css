@@ -261,3 +261,15 @@ body {
     left: -14px;
   }
 }
+
+/* Sub Pages Creation Starts from Here */
+/* HTML Assignment Page */
+.heading-html {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: var(--h1FontSize);
+  padding: 4% 0;
+  color: var(--Color3);
+  transition: 2s;
+}
