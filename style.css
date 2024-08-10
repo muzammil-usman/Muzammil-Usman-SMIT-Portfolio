@@ -283,7 +283,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   width: 80%;
-  height: 400px;
+  height: 500px;
   margin: 20px;
   border-top: 2px solid rgba(255, 255, 255, 0.6);
   border-left: 2px solid rgba(255, 255, 255, 0.6);
@@ -342,13 +342,13 @@ body {
 }
 
 .cont .card .content .img {
-  width: 75vw;
+  width: 100%;
   background-color: black;
-  height: 275px;
-  margin-top: -2.5%;
+  height: 375px;
+  margin-top: -3%;
   border-radius: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -364,11 +364,82 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: white;
+}
+
+/* Sub Pages Creation Starts from Here */
+/* HTML Assignment Page */
+
+#apple {
+  width: 70%;
+  height: 450px;
+  margin-top: 0;
+}
+#apple-pic {
+  width: 100%;
+  background-image: url(Assets/apple-7446229_1280.webp);
+  background-position: center;
+  background-size: contain;
+  height: 325px;
+}
+#abc {
+  width: 70%;
+  height: 450px;
+  margin-top: 0px;
+}
+#abc-pic {
+  width: 100%;
+  background-image: url(Assets/1249502-1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+  height: 325px;
+}
+
+#fb {
+  width: 70%;
+  height: 450px;
+  margin-top: 0;
+}
+
+#fb-login {
+  width: 100%;
+  background-image: url(Assets/Screenshot-2024-03-14-at-12-04-38-GFG-FB-Clone.png);
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+  height: 325px;
+}
+
+#colorlib {
+  width: 70%;
+  height: 450px;
+  margin-top: 0;
+}
+
+#colorlib-pic {
+  width: 100%;
+  background-image: url(Assets/colorlib-logo-top-1.webp);
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+  height: 325px;
 }
 
 @media screen and (max-width: 768px) {
   .cont .card .content .content-details h3 {
     font-size: 20px;
+  }
+
+  .cont .card {
+    width: 90%;
+  }
+
+  #apple,
+  #abc,
+  #fb,
+  #colorlib {
+    width: 90%;
   }
   .cont .card .socials li a {
     color: black;
@@ -383,51 +454,4 @@ body {
     color: black;
     font-size: 24px;
   }
-}
-
-/* Sub Pages Creation Starts from Here */
-/* HTML Assignment Page */
-
-#apple {
-  width: 70%;
-}
-#apple-pic {
-  width: 65vw;
-  background-image: url(Assets/apple-7446229_1280.webp);
-  background-position: center;
-  background-size: contain;
-}
-#abc {
-  width: 70%;
-}
-#abc-pic {
-  width: 65vw;
-  background-image: url(Assets/1249502-1.jpg);
-  background-position: center;
-  background-size: contain;
-  background-color: white;
-}
-
-#fb {
-  width: 70%;
-}
-
-#fb-login {
-  width: 65vw;
-  background-image: url(Assets/Screenshot-2024-03-14-at-12-04-38-GFG-FB-Clone.png);
-  background-position: center;
-  background-size: contain;
-  background-color: white;
-}
-
-#colorlib {
-  width: 70%;
-}
-
-#colorlib-pic {
-  width: 65vw;
-  background-image: url(Assets/colorlib-logo-top-1.webp);
-  background-position: center;
-  background-size: contain;
-  background-color: white;
 }
