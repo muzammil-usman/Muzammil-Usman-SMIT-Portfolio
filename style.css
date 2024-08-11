@@ -380,6 +380,7 @@ body {
   background-image: url(Assets/apple-7446229_1280.webp);
   background-position: center;
   background-size: contain;
+  background-color: black;
   height: 325px;
 }
 #abc {
@@ -423,6 +424,36 @@ body {
   background-position: center;
   background-size: contain;
   background-color: white;
+  height: 325px;
+}
+
+#salt {
+  width: 70%;
+  height: 450px;
+  margin-top: 0;
+}
+
+#salt-pic {
+  width: 100%;
+  background-image: url(Assets/d47575d1-42d9-43f7-84b2-f11adea5f8eb.webp);
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+  height: 325px;
+}
+
+#UI {
+  width: 70%;
+  height: 450px;
+  margin-top: 0;
+}
+
+#UI-Pic {
+  width: 100%;
+  background-image: url(Assets/6090f41c6a0e6399223537.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: #3c40c6;
   height: 325px;
 }
 
