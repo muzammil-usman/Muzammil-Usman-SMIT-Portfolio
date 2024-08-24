@@ -19,18 +19,12 @@
 }
 
 body {
-  background-color: var(--bgColor);
-}
-
-.main-container {
-  width: 100%;
-  height: 100vh;
-  /* overflow-x: hidden; */
+  background-color: blue;
 }
 
 nav {
   top: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -47,7 +41,6 @@ nav > a {
 }
 
 .hero {
-  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -67,34 +60,27 @@ nav > a {
 }
 
 .mac-air {
-  /* position: relative; */
-  width: 100vw;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  /* justify-content: left; */
   background-color: var(--bgColo);
-  /* padding-bottom: -200px; */
 }
 
 .headings {
-  /* position: absolute; */
+  position: absolute;
   display: flex;
   flex-direction: column;
-  margin-bottom: -250px;
   z-index: 2;
-  margin-top: 100px;
-  /* background-color: darkgreen; */
-  /* top: 10%; */
-  /* left: 40%; */
+  top: 15%;
+  left: 39%;
 }
 
 .mac-btns {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .mac {
@@ -103,12 +89,10 @@ nav > a {
 
 #Air {
   font-size: var(--h1FontSize);
-  /* padding-top: 100px; */
 }
 
 #M3 {
   font-size: var(--h2FontSize);
-  /* padding-bottom: 20px; */
 }
 
 .learn {
@@ -130,30 +114,26 @@ nav > a {
   border-radius: 20px;
   background-color: var(--bgColor);
   color: var(--btnColor);
-  &:hover {
-  }
 }
 
 .iphone-pic {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
   text-align: center;
 }
 
 .iphone-heading {
-  /* position: absolute; */
+  position: absolute;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  margin-bottom: -200px;
   padding-top: 100px;
   color: var(--bgColor);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
 }
 
 .shop-iphone-btn {
@@ -175,12 +155,13 @@ nav > a {
 
 .row1 {
   display: flex;
-  width: 100%;
+  /* width: 99%; */
   gap: 10px 10px;
+  margin-top: 20px;
 }
 
 .pic1 {
-  width: 49.5%;
+  width: 50%;
   height: 600px;
   background-image: url(assets/promo_apple_watch_series_9_order__b3u85rm9zf6u_small\ 1.jpg);
   background-size: cover;
@@ -188,7 +169,13 @@ nav > a {
 }
 
 .pic2 {
-  width: 49.5%;
+  width: 50%;
   background-color: orange;
   height: 600px;
+}
+
+@media screen and (max-width: 320px) {
+  .links {
+    display: none;
+  }
 }
