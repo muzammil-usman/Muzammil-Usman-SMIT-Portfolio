@@ -457,6 +457,21 @@ body {
   height: 325px;
 }
 
+#gmail {
+  width: 70%;
+  height: 450px;
+  margin-top: 0;
+}
+
+#gmail-pic {
+  width: 100%;
+  background-image: url(Assets/newgmaillogo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+  height: 325px;
+}
+
 @media screen and (max-width: 768px) {
   .cont .card .content .content-details h3 {
     font-size: 20px;
@@ -469,7 +484,10 @@ body {
   #apple,
   #abc,
   #fb,
-  #colorlib {
+  #colorlib,
+  #UI,
+  #gmail,
+  #salt {
     width: 90%;
   }
   .cont .card .socials li a {
