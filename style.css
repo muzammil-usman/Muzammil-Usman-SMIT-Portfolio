@@ -22,15 +22,9 @@
 body {
   background: linear-gradient(to bottom, #0d6db7, #8dc63f, white);
 }
-.main {
-  /* width: 100vw; */
-  /* height: 100vh; */
-  /* overflow-x: hidden; */
-}
 
 .intro {
   width: 100%;
-  /* background-color: purple; */
   margin-top: 5%;
 }
 
