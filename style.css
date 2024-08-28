@@ -341,8 +341,6 @@ body {
   height: 375px;
   margin-top: -3%;
   border-radius: 10px;
-  /* margin-left: 5%; */
-  /* margin-right: 5%; */
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -362,7 +360,7 @@ body {
 }
 
 /* Sub Pages Creation Starts from Here */
-/* HTML Assignment Page */
+/* CSS Assignment Page */
 
 #apple {
   width: 70%;
@@ -466,6 +464,77 @@ body {
   height: 325px;
 }
 
+/* Sub Pages Creation Starts From Here */
+/* JavaScript Page Creation */
+
+#PDF {
+  width: 60%;
+  height: 450px;
+  margin-top: 0;
+}
+#PDF-pic {
+  width: 100%;
+  background-image: url(Assets/what-does-pdf-stand-for.png);
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  height: 325px;
+}
+
+#chap-1 {
+  width: 40%;
+  height: 450px;
+  margin-top: 0;
+}
+#chap-1-pic {
+  width: 100%;
+  background-image: url(Assets/Screenshot\ 2024-08-27\ 235515.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #5b9bd5;
+  height: 325px;
+}
+
+#chap-2 {
+  width: 40%;
+  height: 450px;
+  margin-top: 0;
+}
+#chap-2-pic {
+  width: 100%;
+  background-image: url(Assets/Screenshot\ 2024-08-28\ 000907\ strings.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #5b9bd5;
+  height: 325px;
+}
+#chap-3 {
+  width: 40%;
+  height: 450px;
+  margin-top: 0;
+}
+#chap-3-pic {
+  width: 100%;
+  background-image: url(Assets/Screenshot\ 2024-08-28\ 165032\ numbers.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #5b9bd5;
+  height: 325px;
+}
+#chap-4 {
+  width: 40%;
+  height: 450px;
+  margin-top: 0;
+}
+#chap-4-pic {
+  width: 100%;
+  background-image: url(Assets/Screenshot\ 2024-08-29\ 000817\ legal.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #5b9bd5;
+  height: 325px;
+}
+
 @media screen and (max-width: 768px) {
   .cont .card .content .content-details h3 {
     font-size: 20px;
@@ -481,9 +550,14 @@ body {
   #colorlib,
   #UI,
   #gmail,
-  #salt {
+  #salt,
+  #PDF,
+  #chap-1,
+  #chap-2,
+  #chap-3 {
     width: 90%;
   }
+
   .cont .card .socials li a {
     color: black;
     font-size: 30px;
