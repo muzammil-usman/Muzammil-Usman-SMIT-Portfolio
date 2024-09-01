@@ -1,32 +1,32 @@
 // Question Number 1
 
-// let addNum1 = Number(prompt("Enter your first number"));
-// let addNum2 = Number(prompt("Enter your second number"));
+let addNum1 = Number(prompt("Enter your first number"));
+let addNum2 = Number(prompt("Enter your second number"));
 
-// let additionResult = addNum1 + addNum2;
-// document.write("The result of addition is : " + additionResult + "<br>");
+let additionResult = addNum1 + addNum2;
+document.write("The result of addition is : " + additionResult + "<br>");
 
-// // Question Number 2
+// Question Number 2
 
-// let substractNum1 = prompt("Enter your first number");
-// let substractNum2 = prompt("Enter your second number");
+let substractNum1 = prompt("Enter your first number");
+let substractNum2 = prompt("Enter your second number");
 
-// let substractResult = substractNum1 - substractNum2;
-// document.write("The result of subtraction is : " + substractResult + "<br>");
+let substractResult = substractNum1 - substractNum2;
+document.write("The result of subtraction is : " + substractResult + "<br>");
 
-// let multiplyNum1 = prompt("Enter your first number");
-// let multiplyNum2 = prompt("Enter your second number");
+let multiplyNum1 = prompt("Enter your first number");
+let multiplyNum2 = prompt("Enter your second number");
 
-// let multiplicationResult = multiplyNum1 * multiplyNum2;
-// document.write(
-//   "The result of multiplication is : " + multiplicationResult + "<br>"
-// );
+let multiplicationResult = multiplyNum1 * multiplyNum2;
+document.write(
+  "The result of multiplication is : " + multiplicationResult + "<br>"
+);
 
-// let divisionNum1 = prompt("Enter your first number");
-// let divisionNum2 = prompt("Enter your second number");
+let divisionNum1 = prompt("Enter your first number");
+let divisionNum2 = prompt("Enter your second number");
 
-// let divisionResult = divisionNum1 / divisionNum2;
-// document.write("The result of division is : " + divisionResult + "<br>");
+let divisionResult = divisionNum1 / divisionNum2;
+document.write("The result of division is : " + divisionResult + "<br>");
 
 // Question Number 3
 
@@ -168,4 +168,74 @@ let usDollar = 104.8 * 10;
 let saudiRiyal = 28 * 25;
 
 let totalCurrency = usDollar + saudiRiyal;
-document.write("Total Currency in PKR is : " + totalCurrency);
+document.write("Total Currency in PKR is : " + totalCurrency + "<br>");
+
+// Question Number 10
+
+let arithmetic = 2;
+
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+
+arithmetic + (5 * 10) / 2;
+document.write("Arithmetic Value is : " + arithmetic + "<br>");
+
+// Question Number 11
+
+// a. Store the current year in a variable.
+var currentYear = 2024;
+document.write("Current Year : " + currentYear + "<br>");
+// b. Store their birth year in a variable.
+var birthYear = 2005;
+document.write("Birth Year : " + birthYear + "<br>");
+// c. Calculate their 2 possible ages based on the stored values.
+var age = currentYear - birthYear;
+document.write("Your age is : " + age + "<br>");
+
+// Question Number 12
+
+// a. Store a radius into a variable.
+
+let radius = 19;
+document.write("Radius of a circle is : " + radius + "<br>");
+
+//b. Calculate the circumference based on the radius, and output “The circumference is NN”.
+
+let circumference = 8;
+document.write("The circumference is : " + circumference + "<br>");
+let areaOfCircle = radius * circumference;
+document.write("The area is : " + areaOfCircle + "<br>");
+
+// Question Number 13
+
+// a. Store your favorite snack into a variable
+
+let favouriteSnack = "Chat Pat";
+document.write("Favourite Snack : " + favouriteSnack + "<br>");
+
+// b. Store your current age into a variable.
+
+let currentAge = 19;
+document.write("Current Age : " + currentAge + "<br>");
+
+// c. Store a maximum age into a variable.
+
+let maxAge = 60;
+document.write("Estimated Maximum Age : " + age + "<br>");
+
+// d. Store an estimated amount per day (as a number).
+
+let averageAmount = 2;
+document.write("Amount of Snacks Per Day : " + averageAmount + "<br>");
+
+let lifetimeSupply = currentAge * maxAge * averageAmount;
+document.write(
+  "You will need " +
+    lifetimeSupply +
+    " " +
+    favouriteSnack +
+    "  to last you until you ripe old age of " +
+    maxAge +
+    "<br>"
+);

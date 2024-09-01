@@ -534,6 +534,32 @@ body {
   background-color: #5b9bd5;
   height: 325px;
 }
+#chap-5 {
+  width: 40%;
+  height: 450px;
+  margin-top: 0;
+}
+#chap-5-pic {
+  width: 100%;
+  background-image: url(Assets/Screenshot\ 2024-09-01\ 183504\ maths\ expression.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #5b9bd5;
+  height: 325px;
+}
+#chap-6-to-9 {
+  width: 40%;
+  height: 450px;
+  margin-top: 0;
+}
+#chap-6-to-9-pic {
+  width: 100%;
+  background-image: url(Assets/Screenshot\ 2024-09-01\ 183504\ maths\ expression.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #5b9bd5;
+  height: 325px;
+}
 
 @media screen and (max-width: 768px) {
   .cont .card .content .content-details h3 {
@@ -554,7 +580,10 @@ body {
   #PDF,
   #chap-1,
   #chap-2,
-  #chap-3 {
+  #chap-3,
+  #chap-4,
+  #chap-5,
+  #chap-6-to-9 {
     width: 90%;
   }
 
