@@ -131,9 +131,6 @@ nav > a {
   flex-direction: column;
   padding-top: 100px;
   color: var(--bgColor);
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* text-align: center; */
 }
 
 .shop-iphone-btn {
