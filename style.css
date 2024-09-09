@@ -560,6 +560,20 @@ body {
   background-color: #5b9bd5;
   height: 325px;
 }
+#chap-9-to-11 {
+  width: 40%;
+  height: 450px;
+  margin-top: 0;
+}
+#chap-9-to-11-pic {
+  width: 100%;
+  background-image: url(Assets/Screenshot\ 2024-09-10\ 011334\ user\ input.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #5b9bd5;
+  height: 325px;
+  background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 768px) {
   .cont .card .content .content-details h3 {
@@ -583,7 +597,8 @@ body {
   #chap-3,
   #chap-4,
   #chap-5,
-  #chap-6-to-9 {
+  #chap-6-to-9,
+  #chap-9-to-11 {
     width: 90%;
   }
 
