@@ -493,6 +493,19 @@ body {
   background-color: black;
   height: 325px;
 }
+#marksheet {
+  width: 60%;
+  height: 450px;
+  margin-top: 0;
+}
+#marksheet-pic {
+  width: 100%;
+  background-image: url(Assets/4772.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  height: 325px;
+}
 
 #chap-1 {
   width: 40%;
@@ -620,6 +633,7 @@ body {
   #salt,
   #PDF,
   #clock,
+  #marksheet,
   #chap-1,
   #chap-2,
   #chap-3,
