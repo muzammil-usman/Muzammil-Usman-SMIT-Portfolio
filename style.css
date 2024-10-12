@@ -506,6 +506,19 @@ body {
   background-color: black;
   height: 325px;
 }
+#calculator {
+  width: 60%;
+  height: 450px;
+  margin-top: 0;
+}
+#calculator-pic {
+  width: 100%;
+  background-image: url(Assets/Scientific-Desktop-Calculators-SC-401-MS-EMPIRE-RED.png);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  height: 325px;
+}
 
 #chap-1 {
   width: 40%;
@@ -634,6 +647,7 @@ body {
   #PDF,
   #clock,
   #marksheet,
+  #calculator,
   #chap-1,
   #chap-2,
   #chap-3,
